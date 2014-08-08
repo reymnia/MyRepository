@@ -4,7 +4,7 @@
     Author     : Reyhaneh
 --%>
 
-<%@page import="rey.*" contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +13,7 @@
     </head>
     <body>Person name is :
         <jsp:useBean id="person" class="rey.Person" scope="request">
+            <jsp:setProperty name="person" property="name"/>
             <jsp:getProperty name="person" property="name"/>
         </jsp:useBean>
     </body>

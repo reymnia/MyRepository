@@ -14,8 +14,8 @@
     <body>
         <h1>Hello! Please enter your name:</h1>
         <form action="info.jsp">
-        <input type="text" name="name">
-        <input type="submit" value="Submit name">
+            <input type="text" name="name"></input>
+        <input type="submit" value="Submit name"></input>
         </form>
     </body>
 </html>
